@@ -1,5 +1,5 @@
 {
-  "name": "ng-node-compile",
+  "name": "@gordo/ng-node-compile",
   "version": "2.0.53",
   "description": "Compile angular templates, on Server side!",
   "main": "main.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MoLow/ng-node-compile.git"
+    "url": "https://github.com/shuaqq2004/ng-node-compile"
   },
   "keywords": [
     "angular",
