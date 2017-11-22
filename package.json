@@ -1,6 +1,6 @@
 {
   "name": "@gordo/ng-node-compile",
-  "version": "2.0.53",
+  "version": "2.0.54",
   "description": "Compile angular templates, on Server side!",
   "main": "main.js",
   "dependencies": {

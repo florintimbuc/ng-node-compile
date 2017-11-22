@@ -88,11 +88,13 @@ ngCompile.prototype.$compile = function (html) {
     return function (context) {
         _self.angular.extend($scope, context);
         var elem = _self.services.$compile(html)($scope);
-        elem = _self.angular.element('<div/>').append(elem);
+        var elemAppended = _self.angular.element('<div/>').append(elem);
         $scope.$apply();
-        var str = elem[0].innerHTML;
+        var str = elemAppended[0].innerHTML;
         $scope.$destroy();
-        elem = $scope = null;
+        elemAppended.remove();
+        elem.remove();
+        elem = elemAppended= $scope = null;
         return str;
     }
 }
