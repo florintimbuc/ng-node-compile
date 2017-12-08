@@ -1,16 +1,10 @@
 {
   "name": "ng-node-compile-gordo",
-  "version": "2.0.54",
+  "version": "2.0.55",
   "description": "Compile angular templates, on Server side!",
   "main": "main.js",
   "dependencies": {
-    "jsdom": "^5.0.0"
-  },
-  "devDependencies": {
-    "chai": "^3.0.0",
-    "coveralls": "^2.11.2",
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5"
+    "jsdom": "^11.5.1"
   },
   "scripts": {
     "test": "mocha"
@@ -33,4 +27,3 @@
   },
   "homepage": "https://github.com/MoLow/ng-node-compile"
 }
- 
