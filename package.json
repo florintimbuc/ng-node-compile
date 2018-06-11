@@ -1,17 +1,14 @@
 {
-  "name": "ng-node-compile-gordo",
-  "version": "2.0.55",
+  "name": "ng-node-compile-ft",
+  "version": "2.0.56",
   "description": "Compile angular templates, on Server side!",
   "main": "main.js",
   "dependencies": {
-    "jsdom": "^11.5.1"
-  },
-  "scripts": {
-    "test": "mocha"
+    "jsdom": "^11.11.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shuaqq2004/ng-node-compile"
+    "url": "https://github.com/florintimbuc/ng-node-compile"
   },
   "keywords": [
     "angular",
