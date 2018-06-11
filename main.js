@@ -23,7 +23,7 @@ function ngCompile(modules, angularPath, settings) {
     this.settings = settings || {};
     this.modules = modules;
     var _self = this;
-    this.modules.unshift({ name: 'ng', path: angularPath || path.resolve(__dirname, "angular.js") });
+    this.modules.unshift({ name: 'ng', path: angularPath || path.resolve(__dirname, "../angular/angular.js") });
 
     if (!ngCompile.prototype.envReady) throw new Error(ENVIORMENT_NOT_READY);
 
